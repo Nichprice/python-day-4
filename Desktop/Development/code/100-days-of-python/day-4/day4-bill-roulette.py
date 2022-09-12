@@ -12,3 +12,8 @@ list_size = len(names) - 1
 random_person = random.randint(0, list_size)
 
 print(f"{names[random_person]} has to pay")
+
+# OR
+one_person = random.choice(names)
+
+print(f"{one_person} has to pay")
